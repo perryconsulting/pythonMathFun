@@ -68,6 +68,5 @@ match int(user_selection):
         greatest_common_divisor = greatest_common_divisor_calculator(int(lcm_number1), int(lcm_number2))
         print("\nGreat! First we have to find the Greatest Common Divisor: " + str(greatest_common_divisor))
         print("\nThe Least Common Multiple of " + str(lcm_number1) + " and " + str(lcm_number2) + " is: " + str(least_common_multiple_calculator(int(lcm_number1), int(lcm_number2))))
-
     case 0:
         exit()
